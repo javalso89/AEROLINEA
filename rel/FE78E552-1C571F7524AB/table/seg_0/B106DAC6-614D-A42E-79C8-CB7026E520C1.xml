@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B106DAC6-614D-A42E-79C8-CB7026E520C1" name="EQUIPAJE">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:14:45 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EQUIPAJE" id="249528BB-AE6D-537E-3EE1-D28F48546FAE">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:15:57 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_EQUIPAJE_EQUIPAJE_NNULL </notNullConstraintName>
+</Column>
+<Column name="CANTIDAD" id="FFA5FB02-57DC-B659-7F75-0BC6C48EB504">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:15:57 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CANTIDAD_EQUIPAJE_NNULL </notNullConstraintName>
+</Column>
+<Column name="PESO" id="DC59A06B-C612-1746-ADB5-16F5CD538A65">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:03:35 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PESO_EQUIPAJE_NNULL </notNullConstraintName>
+</Column>
+<Column name="ID_PASAJERO" id="F18A4792-75F7-2CEA-E125-0E13776E5A15">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:20:55 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_PASAJERO_EQUIPAJE_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="42323FF7-507C-39BD-09B8-ACE0814AFE9F" referredColumn="39423883-DF9D-063E-5F4A-0B15DFC8BFBB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6E3EFD7-79DB-55C6-9F57-102DA6CCA604" name="EQUIPAJE_PK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:15:57 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249528BB-AE6D-537E-3EE1-D28F48546FAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0DEF4C2-DCED-029A-FEF4-778DF06D5753" name="EQUIPAJE__IDX">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-08-06 18:47:04 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249528BB-AE6D-537E-3EE1-D28F48546FAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7790E270-4106-1A8C-353C-3545559104B4" name="EQUIPAJE_PASAJERO_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:20:55 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F18A4792-75F7-2CEA-E125-0E13776E5A15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

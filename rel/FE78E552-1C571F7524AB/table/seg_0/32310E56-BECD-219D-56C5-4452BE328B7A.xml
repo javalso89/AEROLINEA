@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32310E56-BECD-219D-56C5-4452BE328B7A" name="VUELO">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:59:44 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VUELO" id="20E65EEC-AE20-FC4B-D398-F63BD74EC0A2">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:00:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_VUELO_VUELO_NNULL </notNullConstraintName>
+</Column>
+<Column name="DESTINO" id="49660251-489F-B20C-CA8D-86AEB453D978">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:00:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>DESTINO_VUELO_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="BDB5F9DD-9925-AB64-1A8D-DF11EE4B4967" referredColumn="BC549C7A-76CE-76BF-2FFF-C538FE212BCF"/>
+</associations>
+</Column>
+<Column name="PARTIDA" id="7DC7F4A1-48C6-A309-23D4-753AC14255CC">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:00:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PARTIDA_VUELO_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="A6AFD1C7-D72B-995D-9AEA-646DD0B941D6" referredColumn="BC549C7A-76CE-76BF-2FFF-C538FE212BCF"/>
+</associations>
+</Column>
+<Column name="HORA_PARTIDA" id="A098538A-7D5D-759C-76DA-5D9EBA035696">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:00:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HORA_PARTIDA_VUELO_NNULL </notNullConstraintName>
+</Column>
+<Column name="HORA_LLEGADA" id="5FF679B2-D46D-D96E-F081-F0A24AB2C388">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:00:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HORA_LLEGADA_VUELO_NNULL </notNullConstraintName>
+</Column>
+<Column name="ID_AVION" id="02FA2F44-14EA-9F4F-BE33-DAAA833C9F04">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:00:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_AVION_VUELO_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="223512EB-32F5-84FD-F191-CF97ADD5195D" referredColumn="9CF6DCFF-8C3F-E594-E75D-72C182FC4912"/>
+</associations>
+</Column>
+<Column name="ID_PILOTO" id="9910AA22-C9C7-8727-F966-83131BECB961">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:11:27 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_PILOTO_VUELO_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="8B66A055-933A-2A1E-48F9-BC3FE6EC5875" referredColumn="A868998B-6DAA-C83F-78F5-A67FEF253564"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB174DBF-5333-FECA-B7F5-D99755C2DC47" name="VUELO_PK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:08:49 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20E65EEC-AE20-FC4B-D398-F63BD74EC0A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AFD273F-41B0-DF4F-EC18-5B8F76251B25" name="VUELO__IDX">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-08-06 18:46:39 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20E65EEC-AE20-FC4B-D398-F63BD74EC0A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10ED5F4C-EEDB-AD28-78EF-4AF4238C608B" name="VUELO_AVION_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:28:46 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02FA2F44-14EA-9F4F-BE33-DAAA833C9F04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="876EF240-C9BC-219A-924A-DD1BB0431EF5" name="VUELO_DESTINO_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:29:58 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49660251-489F-B20C-CA8D-86AEB453D978"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15382719-AD17-E9E9-E963-FBBFC7F30ADF" name="VUELO_PARTIDA_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:30:59 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DC7F4A1-48C6-A309-23D4-753AC14255CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2A058BB-7458-23DE-1E41-B98A39B63BDB" name="VUELO_PILOTO_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:35:49 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9910AA22-C9C7-8727-F966-83131BECB961"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88E65F91-48B4-9D16-3498-6FA468E0023D" name="METODO_PAGO">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:53:10 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_METODO_PAGO" id="272F479B-AC8D-D190-0FA0-FB75E150E667">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:53:46 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_METODO_PAGO__NNULL </notNullConstraintName>
+</Column>
+<Column name="COD_METODO_PAGO" id="E8D93B22-063C-29AB-1603-D73512529259">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:53:46 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>COD_METODO_PAGO__NNULL </notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1ACC87A-48D5-BDB4-0307-C44F4EE8BB1B" name="METODO_PAGO_PK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:08:27 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="272F479B-AC8D-D190-0FA0-FB75E150E667"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

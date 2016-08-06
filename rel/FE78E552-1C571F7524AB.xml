@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Aerolinea_Relacional" id="FE78E552-4066-0960-1113-1C571F7524AB" mainViewID="A0280EF2-F570-794F-E767-E1EC1BCD08B2">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 02:35:07 UTC</createdTime>
+<ownerDesignName>Avance1</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11F736B9-FF51-6425-2ACA-67B593386B31" name="PASAJERO">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:17:25 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PASAJERO" id="39423883-DF9D-063E-5F4A-0B15DFC8BFBB">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:19:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_PASAJERO_PASAJERO_NNULL </notNullConstraintName>
+</Column>
+<Column name="NOMBRE" id="F2A751E5-095A-F973-72B9-D1A889F38B35">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:19:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NOMBRE_PASAJERO_NNULL </notNullConstraintName>
+</Column>
+<Column name="APELLIDO_1" id="5D77EAF4-FD7C-6396-F58F-56DC6465281D">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:19:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>APELLIDO_1_PASAJERO_NNULL </notNullConstraintName>
+</Column>
+<Column name="APELLIDO_2" id="6095C87F-BA15-8B73-F992-8EFB32AF25BC">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:19:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>APELLIDO_2_PASAJERO_NNULL </notNullConstraintName>
+</Column>
+<Column name="TELEFONO" id="942FF8EF-801A-683B-89AC-61F159B8E15B">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:19:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>TELEFONO_PASAJERO_NNULL </notNullConstraintName>
+</Column>
+<Column name="EMAIL" id="A7F08996-0012-F96C-F262-7E4B275B55E8">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:19:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>EMAIL_PASAJERO_NNULL </notNullConstraintName>
+</Column>
+<Column name="DIRECCION" id="B11A952B-F15C-6E88-664F-B24D62777DC3">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:19:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>DIRECCION_PASAJERO_NNULL </notNullConstraintName>
+</Column>
+<Column name="CIUDAD" id="DB66944B-F690-33E9-7148-21311BD39046">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:19:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CIUDAD_PASAJERO_NNULL </notNullConstraintName>
+</Column>
+<Column name="ESTADO" id="FB32B76A-79DD-ED4D-D605-FFCB4F52D9FD">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:19:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ESTADO_PASAJERO_NNULL </notNullConstraintName>
+</Column>
+<Column name="PAIS" id="0EB31313-C7A9-B016-1F47-647857F0FFF4">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:19:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PAIS_PASAJERO_NNULL </notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E29922C4-CE04-9672-F20F-86C001E577F0" name="PASAJERO_PK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:19:32 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39423883-DF9D-063E-5F4A-0B15DFC8BFBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="312AFF94-F980-6670-826C-48E5C898F5D2" name="PASAJERO__IDX">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-08-06 18:46:44 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39423883-DF9D-063E-5F4A-0B15DFC8BFBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

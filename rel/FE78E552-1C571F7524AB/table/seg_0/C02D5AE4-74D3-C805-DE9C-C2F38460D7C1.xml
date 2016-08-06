@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C02D5AE4-74D3-C805-DE9C-C2F38460D7C1" name="PAGO">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:19:51 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PAGO" id="EEEF9FE4-07C9-B5B6-BF5B-BD0929BDE8DC">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:52:12 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_PAGO_PAGO_NNULL </notNullConstraintName>
+</Column>
+<Column name="FECHA_PAGO" id="4AC93C42-217E-9F47-B7CF-21A35BD6E468">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:52:12 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FECHA_PAGO_PAGO_NNULL </notNullConstraintName>
+</Column>
+<Column name="CANTIDAD_PAGO" id="FE98A2C8-5D32-FB73-01BB-289BFBFE3020">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:52:12 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CANTIDAD_PAGO_PAGO_NNULL </notNullConstraintName>
+</Column>
+<Column name="ID_METODO_PAGO" id="1C70CFF4-52BB-B2B4-F1B4-1AE4123A1C8E">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:52:12 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_METODO_PAGO_PAGO_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="B70851BA-5929-4518-D510-D563DC35CDA0" referredColumn="272F479B-AC8D-D190-0FA0-FB75E150E667"/>
+</associations>
+</Column>
+<Column name="ID_ESTADO_PAGO" id="4DB7E869-A271-CC6E-9E31-4B3F8FBF5E10">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:52:56 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_ESTADO_PAGO_PAGO_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="648929D2-2BEB-09C0-3AFB-F5A2520F94B1" referredColumn="B32F6EB4-3F68-F938-6313-C2145D64091C"/>
+</associations>
+</Column>
+<Column name="ID_RESERVA" id="C4E386A3-618A-709D-5FAE-6D35C7575D9A">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:52:36 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_RESERVA_PAGO_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="D4D2C61A-12DC-ABED-B145-C08F832E0D99" referredColumn="5BC1DA96-827D-885C-C730-F7794023851B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93D70B70-8EAB-312A-0EA1-0B96A420E5CE" name="PAGO_PK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:52:36 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4E386A3-618A-709D-5FAE-6D35C7575D9A"/>
+<colUsage columnID="EEEF9FE4-07C9-B5B6-BF5B-BD0929BDE8DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC796112-A10F-C702-8930-EB5727F3AFC5" name="PAGO__IDX">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-08-06 18:46:26 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEEF9FE4-07C9-B5B6-BF5B-BD0929BDE8DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44C7EE7A-FB17-56A3-80CE-40606BBDE99C" name="PAGO_METODO_PAGO_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:26:50 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C70CFF4-52BB-B2B4-F1B4-1AE4123A1C8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6651C168-01D9-F12F-140C-F0341FFE7301" name="PAGO_ESTADO_PAGO_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:27:04 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DB7E869-A271-CC6E-9E31-4B3F8FBF5E10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E545FC14-CE5E-B7A0-48A0-3AB05738B96B" name="PAGO_RESERVA_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:45:03 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4E386A3-618A-709D-5FAE-6D35C7575D9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

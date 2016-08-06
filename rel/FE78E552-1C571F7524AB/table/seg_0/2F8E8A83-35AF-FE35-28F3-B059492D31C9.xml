@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F8E8A83-35AF-FE35-28F3-B059492D31C9" name="ESTADO_RESERVA">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:06:15 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTADO_RESERVA" id="853DDE9B-E7A4-8A97-DCDB-C551EEFC8EE7">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:06:48 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_ESTADO_RESERVA_VLO_NNULL </notNullConstraintName>
+</Column>
+<Column name="COD_ESTADO_RESERVA" id="3D845ADD-DE2B-36A9-FFB4-1EF56B60D8C1">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:06:48 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>COD_ESTADO_RESERVA_VLO_NNULL </notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4130C8A3-8F5B-913A-87E4-E108A3B826FE" name="ESTADO_RESERVA_PK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:08:37 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="853DDE9B-E7A4-8A97-DCDB-C551EEFC8EE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

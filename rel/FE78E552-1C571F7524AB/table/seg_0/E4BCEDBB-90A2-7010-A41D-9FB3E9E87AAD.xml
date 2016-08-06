@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4BCEDBB-90A2-7010-A41D-9FB3E9E87AAD" name="CLASE_VUELO">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:57:19 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLASE_VUELO" id="A71A7BBB-E70D-C813-6220-ABF74492453B">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:58:08 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_CLASE_VUELO_NNULL </notNullConstraintName>
+</Column>
+<Column name="COD_CLASE_VUELO" id="0D5407F3-E34A-2FE2-65AC-AC3483C8BEA2">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:58:08 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>COD_CLASE_VUELO_NNULL </notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE05FBEF-A026-1AB3-F50F-461D005A8B1B" name="CLASE_VUELO_PK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:08:44 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A71A7BBB-E70D-C813-6220-ABF74492453B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

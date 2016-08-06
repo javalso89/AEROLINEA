@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="708082A8-097F-CEAE-A986-A37EC5EEE676" name="PILOTO">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:03:44 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PILOTO" id="A868998B-6DAA-C83F-78F5-A67FEF253564">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:04:29 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_PILOTO_NNULL </notNullConstraintName>
+</Column>
+<Column name="NOMBRE_PILOTO" id="3FD59C06-65D4-95BF-6985-6E9AD06BDB1D">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:04:29 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NOMBRE_PILOTO_NNULL </notNullConstraintName>
+</Column>
+<Column name="APELLIDO_PILOTO" id="CFC7F7AE-5BFC-2A78-F0C2-E26B82B32D48">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:04:29 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>APELLIDO_PILOTO_NNULL </notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C88A435-4E66-094B-7389-278ECB846873" name="PILOTO_PK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:09:07 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A868998B-6DAA-C83F-78F5-A67FEF253564"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

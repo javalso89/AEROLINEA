@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="361F7E4F-E241-0663-2455-A7B11B216A9A" containerWithKeyObject="CCA6B445-B5A6-2E4E-DDF2-9C55CB7FB81B" localFKIndex="A1686EC7-5C7E-3AFC-7FDA-688764C0CCDB" name="RESERVA_ESTADO_RESERVA_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:24:25 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F8E8A83-35AF-FE35-28F3-B059492D31C9</referredTableID>
+<keyObject>4130C8A3-8F5B-913A-87E4-E108A3B826FE</keyObject>
+<referredKeyID>4130C8A3-8F5B-913A-87E4-E108A3B826FE</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

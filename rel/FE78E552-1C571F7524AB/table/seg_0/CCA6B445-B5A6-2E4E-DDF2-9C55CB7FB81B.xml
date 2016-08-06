@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCA6B445-B5A6-2E4E-DDF2-9C55CB7FB81B" name="RESERVA">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:55:05 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RESERVA" id="5BC1DA96-827D-885C-C730-F7794023851B">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:56:13 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_RESERVA_NNULL </notNullConstraintName>
+</Column>
+<Column name="FECHA_RESERVA" id="E4C0DC06-483A-B52F-5451-7EC6F7324387">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:56:13 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FECHA_RESERVA_NNULL </notNullConstraintName>
+</Column>
+<Column name="ID_PASAJERO" id="D6011A05-4BE9-D623-1933-7ED8938297DA">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:56:13 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_PASAJERO_RESERVA_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="233B0D09-2B6B-11D1-9D9B-C4CD1589D5D6" referredColumn="39423883-DF9D-063E-5F4A-0B15DFC8BFBB"/>
+</associations>
+</Column>
+<Column name="ID_ESTADO_RESERVA" id="09B8EF6A-6A1A-9519-87D9-C9599DC825D1">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:56:13 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_ESTADO_RESERVA_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="361F7E4F-E241-0663-2455-A7B11B216A9A" referredColumn="853DDE9B-E7A4-8A97-DCDB-C551EEFC8EE7"/>
+</associations>
+</Column>
+<Column name="ID_TIPO_TIQUETE" id="8FC200EF-D4FB-FFF6-20A1-0BDD3A80CF6F">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:56:29 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_TIPO_TIQUETE_RESERVA_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="06C2BA19-ABB8-D2AC-6AC6-F9E688F6A5E4" referredColumn="5979BC80-E133-B232-7878-A4635830B945"/>
+</associations>
+</Column>
+<Column name="ID_VUELO" id="3BD42C95-E07C-B8DC-BCE7-28B3C92F2BB4">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:57:13 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_VUELO_RESERVA_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="A4574D51-7083-0C9F-F322-A0144A7AD139" referredColumn="20E65EEC-AE20-FC4B-D398-F63BD74EC0A2"/>
+</associations>
+</Column>
+<Column name="ID_CLASE_VUELO" id="21FDB8F7-6DC2-DB74-6E3E-4699FD7FA448">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:57:13 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_CLASE_VUELO_RESERVA_NNULL </notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="9871DD39-93B9-0EE4-0F4E-5CA1347599E1" referredColumn="A71A7BBB-E70D-C813-6220-ABF74492453B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="216E82FB-E7B6-A5C2-A25C-C4B53E744092" name="RESERVA_PK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:56:13 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BC1DA96-827D-885C-C730-F7794023851B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33B8CE2A-A7B2-FFBC-5B98-3CAF050AAB58" name="RESERVA__IDX">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-08-06 18:46:11 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BC1DA96-827D-885C-C730-F7794023851B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A59E70C3-9FD4-6BDD-3BCC-65ED52455416" name="RESERVA_PASAJERO_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:23:16 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6011A05-4BE9-D623-1933-7ED8938297DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1686EC7-5C7E-3AFC-7FDA-688764C0CCDB" name="RESERVA_ESTADO_RESERVA_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:24:25 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09B8EF6A-6A1A-9519-87D9-C9599DC825D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0514312D-2E4A-B3CD-9424-FED51176BBB6" name="RESERVA_TIPO_TIQUETE_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:25:00 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FC200EF-D4FB-FFF6-20A1-0BDD3A80CF6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D06C628-26E4-98D9-F5DD-1274C32FE868" name="RESERVA_VUELO_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:28:14 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BD42C95-E07C-B8DC-BCE7-28B3C92F2BB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="881A8267-814B-7FAC-9681-008C80180E20" name="RESERVA_CLASE_VUELO_FK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:47:19 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21FDB8F7-6DC2-DB74-6E3E-4699FD7FA448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73428FFA-8EAA-2C17-7BA4-7494FCF6645D" name="TIPO_TIQUETE">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:54:28 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_TIQUETE" id="5979BC80-E133-B232-7878-A4635830B945">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:55:01 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ID_TIPO_TIQUETE_NNULL </notNullConstraintName>
+</Column>
+<Column name="COD_TIPO_TIQUETE" id="04EE31DA-D73D-4902-F8D4-918210415407">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 03:55:01 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>COD_TIPO_TIQUETE_NNULL </notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0D4BCB7-4586-F283-F5D6-F722EED44BFA" name="TIPO_TIQUETE_PK">
+<createdBy>jfalvara</createdBy>
+<createdTime>2016-06-26 04:08:57 UTC</createdTime>
+<ownerDesignName>AEROLINEA_BACKUP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5979BC80-E133-B232-7878-A4635830B945"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
